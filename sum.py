@@ -1,7 +1,7 @@
-def mmysum(*numbers):
+def mysum(list, num):
     output = 0
-    for number in numbers:
+    for number in list:
         output += number
-    return output
+    return output + num
 
-print(mmysum(10, 20, 30, 40))
+print(mysum([10, 20, 30, 40], 50))
